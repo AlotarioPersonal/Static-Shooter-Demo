@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <!--The pool of media. a.k.a, The Landfill-->
+
+        <!--Display-->
+        <h1 id="points" style="position:absolute;color:lime;left:20;bottom:100;">Points: </h1>
+        <!--Images-->
+        <img src="media/border.png" id="border" style="position:absolute;width:1250;height:300;" draggable="false">
+        <img src="media/cursor.png" id="cursor" style="position:absolute;cursor:none;width:28;height:28;" draggable="false">
+        <img src="media/target.png" id="target" style="position:absolute;cursor:crosshair;" draggable="false" onclick="hitManager()">
+        <img src="media/doomgun1.png" id="yagun" style="position:absolute;right:0;bottom:0;" draggable="false">
+        <!--Audio-->
+        <audio src="media/sound/shoot.wav" id="shoot" width="0" height="0"></audio>
+        <audio src="media/sound/hit.wav" id="hit" width="0" height="0"></audio>
+        <audio src="media/sound/10points.wav" id="tenpoints" width="0" height="0"></audio>
+        <!--Scripting-->
+        <script type="text/javascript" src="js/gamelogic.js"></script>
+        <script>
+
+            calcPosGun()
+
+        </script>
+    </head>
+    <body style="background-color:#434343;">
+        
+    </body>
+</html>
